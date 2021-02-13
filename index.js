@@ -105,7 +105,7 @@ const printYoutube = async () => {
     const form2 = new FormData();
   form2.append("type", "upload");
   form2.append("file_video", fs.createReadStream("./tmp/myvideo2.mp4"));
-  form2.append("key", "round-glade-4055");
+  form2.append("key", "***");
   form2.append("email", "***");
   form2.append("target_type", 2);
   form2.append("hologram_type", 0); //1
